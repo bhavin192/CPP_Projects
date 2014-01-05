@@ -12,7 +12,7 @@ int a[10],loc,p,beg=0,end=9,mid;
 clrscr();
 cout<<"Enter 10 Numbers In Ascending Order ";
 for(int i=0;i<10;i++)
-{cin>>a[i];}
+cin>>a[i];
 cout<<"Enter Element To Find ";
 cin>>p;
 mid=int((beg+end)/2);
