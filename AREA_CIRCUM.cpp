@@ -6,6 +6,7 @@ Simply Find Area & Circumference of Circle By Entering Radius
 #include<iostream.h>
 #include<conio.h>
 
+using namespace std;
 class circle
 {
  private : float r,c,a;
@@ -28,9 +29,9 @@ class circle
 
 
 
-void main()
+int main()
 {
- clrscr();
+ //clrscr();
  circle s;
  s.input();
  s.process();
